@@ -13,7 +13,7 @@ from collections import namedtuple
 #header_path = '../hypercalls_pdf.txt'
 output_path = 'HypercallsOnlyFromPdf.txt'
 
-pdf_file = open('C:/Users/Avalon/Research/HyperV/Hypervisor Top Level Functional Specification v5.0b.pdf', 'rb')
+pdf_file = open('Hypervisor Top Level Functional Specification v5.0b.pdf', 'rb')
 pdf2_obj = PyPDF2.PdfFileReader(pdf_file)
 max_page = pdf2_obj.getNumPages()
 

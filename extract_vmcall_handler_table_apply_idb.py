@@ -12,8 +12,8 @@ from collections import namedtuple
 
 # Apply to IDB 
 APPLY_TO_IDB = True
-hypercalls_from_pdf_path = 'C:/Users/ichigo/Desktop/HypercallsOnlyFromPdf.h'
-hypercalls_undoc_path = 'C:/Users/ichigo/Desktop/ViridianFuzzer/Hypercalls.h'
+hypercalls_from_pdf_path = 'HypercallsOnlyFromPdf.h'
+hypercalls_undoc_path = 'Hypercalls.h'
 
 HypercallDispatchFormat = namedtuple('HypercallDispatchFormat',
                                      ['func_ptr',
